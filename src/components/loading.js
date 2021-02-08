@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
-function Loading(Component) {
+function loading(Component) {
   return function WihLoadingComponent({ isLoading, ...props }) {
-    if (!isLoading) return <Component {...props} />;
-    return <p>loading</p>;
-  };
+    if (!isLoading) return <Component {...props} />
+    return <p>loading</p>
+  }
 }
-export default Loading;
+export default loading

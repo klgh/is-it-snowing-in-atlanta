@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import Weather from "./Weather"
-import Loading from "./Loading"
+import loading from "./loading"
 import axios from "axios"
 
 function Display() {
-  const WeatherLoading = Loading(Weather)
+  const WeatherLoading = loading(Weather)
   const [appState, setAppState] = useState({
     loading: false,
     weather: null,
