@@ -1,14 +1,14 @@
 import React from "react"
-//import { Link } from "gatsby"
-
+import Display from "../components/display"
 import Layout from "../components/layout"
-//import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h3>no</h3>
+    <h3>
+      <Display />
+    </h3>
   </Layout>
 )
 
