@@ -1,10 +1,17 @@
+const adapter = require("gatsby-adapter-netlify").default
+
 module.exports = {
   siteMetadata: {
     title: `Is It Snowing In Atlanta?`,
     description: `this will let you know if there is actual snow in Atlanta`,
     author: `@kaleighscruggs`,
   },
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+    imageCDN: false,
+  }),
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

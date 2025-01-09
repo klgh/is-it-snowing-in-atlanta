@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import SearchWeather from "./components/searchWeather";
+import React from "react"
+import "./App.css"
+import SearchWeather from "./components/searchWeather"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <SearchWeather />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
