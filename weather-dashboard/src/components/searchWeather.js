@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import "../styles/searchWeather.css";
+import React, { useState } from "react"
+import "../styles/searchWeather.css"
 
 const Weather = () => {
-  let [responseObj, setResponseObj] = useState({});
+  let [responseObj, setResponseObj] = useState({})
   function searchWeather() {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=Atlanta&APPID=eedea857757c1fc226a3ec6cc3b917b1",
@@ -12,8 +12,8 @@ const Weather = () => {
     )
       .then((response) => response.json())
       .then((response) => {
-        setResponseObj(response);
-      });
+        setResponseObj(response)
+      })
   }
   return (
     <div>
@@ -32,7 +32,7 @@ const Weather = () => {
       </div>
       <div className="weatherJSON">{JSON.stringify(responseObj)}</div>
     </div>
-  );
-};
+  )
+}
 
-export default Weather;
+export default Weather

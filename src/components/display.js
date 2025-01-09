@@ -15,7 +15,7 @@ function Display() {
     // TODO Hide API KEY
     const apiUrl =
       "https://api.openweathermap.org/data/2.5/weather?q=atlanta&appid=eedea857757c1fc226a3ec6cc3b917b1"
-    axios.get(apiUrl).then(weatherAPI => {
+    axios.get(apiUrl).then((weatherAPI) => {
       const allweatherAPI = weatherAPI.data
       setAppState({ loading: false, weatherAPI: allweatherAPI })
     })
