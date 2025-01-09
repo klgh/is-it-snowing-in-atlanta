@@ -8,6 +8,8 @@ const Weather = props => {
     <div className="weather">
       <p>
         It's currently {weatherAPI.weather[0].main} in {weatherAPI.name}
+        {/* if main = snow print YES */}
+        {weatherAPI.weather[0].main === "Snow" ? "YES" : "NO"}
       </p>
     </div>
   )
