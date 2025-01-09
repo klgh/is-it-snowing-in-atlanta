@@ -27,6 +27,7 @@
   "dependencies": {
     "axios": "^1.7.9",
     "gatsby": "^5.14.1",
+    "gatsby-adapter-netlify": "^1.2.0",
     "gatsby-cli": "^5.14.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^5.14.0",
