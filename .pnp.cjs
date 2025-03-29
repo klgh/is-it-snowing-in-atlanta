@@ -77,7 +77,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcore%2F-%2Fcore-7.26.0.tgz"],\
           ["@babel/generator", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fgenerator%2F-%2Fgenerator-7.26.3.tgz"],\
           ["@babel/parser", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fparser%2F-%2Fparser-7.26.3.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@babel/traverse", "npm:7.26.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftraverse%2F-%2Ftraverse-7.26.4.tgz"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
           ["@types/graphql", null],\
@@ -2593,10 +2593,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/runtime", [\
-      ["npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@babel-runtime-npm-7.26.0-8c93e48cec-10c0.zip/node_modules/@babel/runtime/",\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@babel-runtime-npm-7.27.0-67ce9cb54f-10c0.zip/node_modules/@babel/runtime/",\
         "packageDependencies": [\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["regenerator-runtime", "npm:0.14.1"]\
         ],\
         "linkType": "HARD"\
@@ -2705,7 +2705,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@gatsbyjs-parcel-namer-relative-to-cwd-npm-2.14.0-df3ba50e3f-10c0.zip/node_modules/@gatsbyjs/parcel-namer-relative-to-cwd/",\
         "packageDependencies": [\
           ["@gatsbyjs/parcel-namer-relative-to-cwd", "npm:2.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40gatsbyjs%2Fparcel-namer-relative-to-cwd%2F-%2Fparcel-namer-relative-to-cwd-2.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@parcel/namer-default", "npm:2.8.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40parcel%2Fnamer-default%2F-%2Fnamer-default-2.8.3.tgz"],\
           ["@parcel/plugin", "npm:2.8.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40parcel%2Fplugin%2F-%2Fplugin-2.8.3.tgz"],\
           ["gatsby-core-utils", "npm:4.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-core-utils%2F-%2Fgatsby-core-utils-4.14.0.tgz"]\
@@ -6120,7 +6120,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/babel-plugin-macros-npm-3.1.0-380e2d970e-10c0.zip/node_modules/babel-plugin-macros/",\
         "packageDependencies": [\
           ["babel-plugin-macros", "npm:3.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-plugin-macros%2F-%2Fbabel-plugin-macros-3.1.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["cosmiconfig", "npm:7.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcosmiconfig%2F-%2Fcosmiconfig-7.1.0.tgz"],\
           ["resolve", "patch:resolve@npm%3A1.22.10%3A%3A__archiveUrl=https%253A%252F%252Fregistry.npmjs.org%252Fresolve%252F-%252Fresolve-1.22.10.tgz#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"]\
         ],\
@@ -6212,7 +6212,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["babel-plugin-remove-graphql-queries", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-plugin-remove-graphql-queries%2F-%2Fbabel-plugin-remove-graphql-queries-5.14.0.tgz"],\
           ["@babel/core", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcore%2F-%2Fcore-7.26.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
           ["@types/babel__core", null],\
           ["@types/gatsby", null],\
@@ -6337,7 +6337,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/plugin-transform-spread", "virtual:50589f867f9cfd18ae56d6ce012aa790a4b76829948a0ea5488ecf5bb5f7d2855f70c89362b74513e6a2d44ca3b811ef28ac7765f8971e7d8e25efbd66a65e4a#npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-transform-spread%2F-%2Fplugin-transform-spread-7.25.9.tgz"],\
           ["@babel/preset-env", "virtual:6287068aee16aa039421c731f76ef62f30476a0da88f2e62407b4a0c34b7f9c97c687322dc91e1bd24fca900d4f7e833a247fb8098c09e8404114a1a632c7fd1#npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fpreset-env%2F-%2Fpreset-env-7.26.0.tgz"],\
           ["@babel/preset-react", "virtual:6287068aee16aa039421c731f76ef62f30476a0da88f2e62407b4a0c34b7f9c97c687322dc91e1bd24fca900d4f7e833a247fb8098c09e8404114a1a632c7fd1#npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fpreset-react%2F-%2Fpreset-react-7.26.3.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/babel__core", null],\
           ["@types/core-js", null],\
           ["babel-plugin-dynamic-import-node", "npm:2.3.3"],\
@@ -7578,7 +7578,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/create-gatsby-npm-3.14.0-a22807eff5-10c0.zip/node_modules/create-gatsby/",\
         "packageDependencies": [\
           ["create-gatsby", "npm:3.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcreate-gatsby%2F-%2Fcreate-gatsby-3.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"]\
+          ["@babel/runtime", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7979,7 +7979,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/date-fns-npm-2.30.0-4b50e47aee-10c0.zip/node_modules/date-fns/",\
         "packageDependencies": [\
           ["date-fns", "npm:2.30.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdate-fns%2F-%2Fdate-fns-2.30.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"]\
+          ["@babel/runtime", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10257,7 +10257,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/eslint-parser", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Feslint-parser%2F-%2Feslint-parser-7.25.9.tgz"],\
           ["@babel/helper-plugin-utils", "npm:7.25.9"],\
           ["@babel/parser", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fparser%2F-%2Fparser-7.26.3.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@babel/traverse", "npm:7.26.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftraverse%2F-%2Ftraverse-7.26.4.tgz"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
           ["@builder.io/partytown", "npm:0.7.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40builder.io%2Fpartytown%2F-%2Fpartytown-0.7.6.tgz"],\
@@ -10445,7 +10445,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-adapter-netlify-virtual-42df98d99b/3/.yarn/berry/cache/gatsby-adapter-netlify-npm-1.2.0-317fa3e37b-10c0.zip/node_modules/gatsby-adapter-netlify/",\
         "packageDependencies": [\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-adapter-netlify%2F-%2Fgatsby-adapter-netlify-1.2.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@netlify/cache-utils", "npm:5.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40netlify%2Fcache-utils%2F-%2Fcache-utils-5.2.0.tgz"],\
           ["@netlify/config", "npm:20.21.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40netlify%2Fconfig%2F-%2Fconfig-20.21.2.tgz"],\
           ["@netlify/functions", "npm:1.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40netlify%2Ffunctions%2F-%2Ffunctions-1.6.0.tgz"],\
@@ -10473,7 +10473,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/generator", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fgenerator%2F-%2Fgenerator-7.26.3.tgz"],\
           ["@babel/helper-plugin-utils", "npm:7.25.9"],\
           ["@babel/preset-typescript", "virtual:dcedbbefaa230a69002d5dd2d538dae9c3a68425d5f8e89a9f42b81c4b8e1945ef033673014d30e2f00492a41e3e8d22e6550be238f4d898dd53c507089082d7#npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fpreset-typescript%2F-%2Fpreset-typescript-7.26.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@babel/template", "npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftemplate%2F-%2Ftemplate-7.25.9.tgz"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
           ["@jridgewell/trace-mapping", "npm:0.3.25::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40jridgewell%2Ftrace-mapping%2F-%2Ftrace-mapping-0.3.25.tgz"],\
@@ -10517,7 +10517,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/gatsby-core-utils-npm-4.14.0-68dc61c666-10c0.zip/node_modules/gatsby-core-utils/",\
         "packageDependencies": [\
           ["gatsby-core-utils", "npm:4.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-core-utils%2F-%2Fgatsby-core-utils-4.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["ci-info", "npm:2.0.0"],\
           ["configstore", "npm:5.0.1"],\
           ["fastq", "npm:1.18.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffastq%2F-%2Ffastq-1.18.0.tgz"],\
@@ -10551,7 +10551,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/gatsby-image-npm-3.11.0-630eff15f5-10c0.zip/node_modules/gatsby-image/",\
         "packageDependencies": [\
           ["gatsby-image", "npm:3.11.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-image%2F-%2Fgatsby-image-3.11.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["object-fit-images", "npm:3.2.4"],\
           ["prop-types", "npm:15.8.1"]\
         ],\
@@ -10563,7 +10563,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/gatsby-legacy-polyfills-npm-3.14.0-d8f160582a-10c0.zip/node_modules/gatsby-legacy-polyfills/",\
         "packageDependencies": [\
           ["gatsby-legacy-polyfills", "npm:3.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-legacy-polyfills%2F-%2Fgatsby-legacy-polyfills-3.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["core-js-compat", "npm:3.31.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js-compat%2F-%2Fcore-js-compat-3.31.0.tgz"]\
         ],\
         "linkType": "HARD"\
@@ -10607,7 +10607,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/gatsby-page-utils-npm-3.14.0-f8496cffdd-10c0.zip/node_modules/gatsby-page-utils/",\
         "packageDependencies": [\
           ["gatsby-page-utils", "npm:3.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-page-utils%2F-%2Fgatsby-page-utils-3.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["bluebird", "npm:3.7.2"],\
           ["chokidar", "npm:3.6.0"],\
           ["fs-exists-cached", "npm:1.0.0"],\
@@ -10665,7 +10665,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-google-analytics-virtual-bb1f5551bb/3/.yarn/berry/cache/gatsby-plugin-google-analytics-npm-5.14.0-0e5f851395-10c0.zip/node_modules/gatsby-plugin-google-analytics/",\
         "packageDependencies": [\
           ["gatsby-plugin-google-analytics", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-google-analytics%2F-%2Fgatsby-plugin-google-analytics-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -10698,7 +10698,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-manifest-virtual-212a826a08/3/.yarn/berry/cache/gatsby-plugin-manifest-npm-5.14.0-877dbf1375-10c0.zip/node_modules/gatsby-plugin-manifest/",\
         "packageDependencies": [\
           ["gatsby-plugin-manifest", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-manifest%2F-%2Fgatsby-plugin-manifest-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"],\
           ["gatsby-core-utils", "npm:4.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-core-utils%2F-%2Fgatsby-core-utils-4.14.0.tgz"],\
@@ -10725,7 +10725,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-offline-virtual-b5f086114f/3/.yarn/berry/cache/gatsby-plugin-offline-npm-6.14.0-5069cad5a8-10c0.zip/node_modules/gatsby-plugin-offline/",\
         "packageDependencies": [\
           ["gatsby-plugin-offline", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:6.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-offline%2F-%2Fgatsby-plugin-offline-6.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
@@ -10762,7 +10762,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-page-creator-virtual-0a89835917/3/.yarn/berry/cache/gatsby-plugin-page-creator-npm-5.14.0-6a102002e1-10c0.zip/node_modules/gatsby-plugin-page-creator/",\
         "packageDependencies": [\
           ["gatsby-plugin-page-creator", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-page-creator%2F-%2Fgatsby-plugin-page-creator-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@babel/traverse", "npm:7.26.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftraverse%2F-%2Ftraverse-7.26.4.tgz"],\
           ["@sindresorhus/slugify", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40sindresorhus%2Fslugify%2F-%2Fslugify-1.1.2.tgz"],\
           ["@types/gatsby", null],\
@@ -10795,7 +10795,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-react-helmet-virtual-3a1e1dd45c/3/.yarn/berry/cache/gatsby-plugin-react-helmet-npm-6.14.0-ff7b1f3031-10c0.zip/node_modules/gatsby-plugin-react-helmet/",\
         "packageDependencies": [\
           ["gatsby-plugin-react-helmet", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:6.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-react-helmet%2F-%2Fgatsby-plugin-react-helmet-6.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/react-helmet", null],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"],\
@@ -10822,7 +10822,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-sass-virtual-03376610af/3/.yarn/berry/cache/gatsby-plugin-sass-npm-6.14.0-cc6ce07f40-10c0.zip/node_modules/gatsby-plugin-sass/",\
         "packageDependencies": [\
           ["gatsby-plugin-sass", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:6.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-sass%2F-%2Fgatsby-plugin-sass-6.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/sass", null],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"],\
@@ -10851,7 +10851,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-sharp-virtual-9709886157/3/.yarn/berry/cache/gatsby-plugin-sharp-npm-5.14.0-7dce280f0f-10c0.zip/node_modules/gatsby-plugin-sharp/",\
         "packageDependencies": [\
           ["gatsby-plugin-sharp", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-sharp%2F-%2Fgatsby-plugin-sharp-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["async", "npm:3.2.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fasync%2F-%2Fasync-3.2.6.tgz"],\
           ["bluebird", "npm:3.7.2"],\
@@ -10890,7 +10890,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/plugin-proposal-numeric-separator", "virtual:fc5dabd90a97698243928c93aeb16d4560a05cecae45deedf4c50cda9c499aea5eca0b81da8b317fdc49e95c0e134e228cc6d90823a2a6538ecf41522eaa24fe#npm:7.18.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-numeric-separator%2F-%2Fplugin-proposal-numeric-separator-7.18.6.tgz"],\
           ["@babel/plugin-proposal-optional-chaining", "virtual:6287068aee16aa039421c731f76ef62f30476a0da88f2e62407b4a0c34b7f9c97c687322dc91e1bd24fca900d4f7e833a247fb8098c09e8404114a1a632c7fd1#npm:7.21.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fplugin-proposal-optional-chaining%2F-%2Fplugin-proposal-optional-chaining-7.21.0.tgz"],\
           ["@babel/preset-typescript", "virtual:dcedbbefaa230a69002d5dd2d538dae9c3a68425d5f8e89a9f42b81c4b8e1945ef033673014d30e2f00492a41e3e8d22e6550be238f4d898dd53c507089082d7#npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fpreset-typescript%2F-%2Fpreset-typescript-7.26.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["babel-plugin-remove-graphql-queries", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-plugin-remove-graphql-queries%2F-%2Fbabel-plugin-remove-graphql-queries-5.14.0.tgz"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"]\
@@ -10914,7 +10914,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-utils-virtual-b4b174430f/3/.yarn/berry/cache/gatsby-plugin-utils-npm-4.14.0-ab72d4e5a2-10c0.zip/node_modules/gatsby-plugin-utils/",\
         "packageDependencies": [\
           ["gatsby-plugin-utils", "virtual:212a826a088c68021cb3b6c5f7a1f32dfd1ab9efebd75d37012b2c08f7e5313566c9de54d9bd3ac195cf4ee0cfc5c41ab5d86a645b228ef1e62e25a8aa1f2527#npm:4.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-utils%2F-%2Fgatsby-plugin-utils-4.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/graphql", null],\
           ["fastq", "npm:1.18.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffastq%2F-%2Ffastq-1.18.0.tgz"],\
@@ -10940,7 +10940,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-plugin-utils-virtual-70e7043080/3/.yarn/berry/cache/gatsby-plugin-utils-npm-4.14.0-ab72d4e5a2-10c0.zip/node_modules/gatsby-plugin-utils/",\
         "packageDependencies": [\
           ["gatsby-plugin-utils", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:4.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-plugin-utils%2F-%2Fgatsby-plugin-utils-4.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/graphql", null],\
           ["fastq", "npm:1.18.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffastq%2F-%2Ffastq-1.18.0.tgz"],\
@@ -10975,7 +10975,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-react-router-scroll-virtual-785d79490d/3/.yarn/berry/cache/gatsby-react-router-scroll-npm-6.14.0-98ee29b20a-10c0.zip/node_modules/gatsby-react-router-scroll/",\
         "packageDependencies": [\
           ["gatsby-react-router-scroll", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:6.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-react-router-scroll%2F-%2Fgatsby-react-router-scroll-6.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@gatsbyjs/reach-router", "virtual:3ea3547a815def0ae5546a1d429bc2b8fba3357ac472c8eccce423a310f1fbfef772d426e300c03586b759956f97227828e8fb9c4cb07ebf5096e48d2d0dcda8#npm:2.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40gatsbyjs%2Freach-router%2F-%2Freach-router-2.0.1.tgz"],\
           ["@types/gatsbyjs__reach-router", null],\
           ["@types/react", null],\
@@ -11047,7 +11047,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-source-filesystem-virtual-e274909565/3/.yarn/berry/cache/gatsby-source-filesystem-npm-5.14.0-7b8ad58f99-10c0.zip/node_modules/gatsby-source-filesystem/",\
         "packageDependencies": [\
           ["gatsby-source-filesystem", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-source-filesystem%2F-%2Fgatsby-source-filesystem-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["chokidar", "npm:3.6.0"],\
           ["file-type", "npm:16.5.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffile-type%2F-%2Ffile-type-16.5.4.tgz"],\
@@ -11078,7 +11078,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/gatsby-transformer-sharp-virtual-c2edcd1da0/3/.yarn/berry/cache/gatsby-transformer-sharp-npm-5.14.0-b32d3a95ed-10c0.zip/node_modules/gatsby-transformer-sharp/",\
         "packageDependencies": [\
           ["gatsby-transformer-sharp", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-transformer-sharp%2F-%2Fgatsby-transformer-sharp-5.14.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@types/gatsby", null],\
           ["@types/gatsby-plugin-sharp", null],\
           ["bluebird", "npm:3.7.2"],\
@@ -11106,7 +11106,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["gatsby-worker", "npm:2.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-worker%2F-%2Fgatsby-worker-2.14.0.tgz"],\
           ["@babel/core", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcore%2F-%2Fcore-7.26.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["fs-extra", "npm:11.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffs-extra%2F-%2Ffs-extra-11.2.0.tgz"],\
           ["signal-exit", "npm:3.0.7"]\
         ],\
@@ -16472,7 +16472,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/redux-npm-4.2.1-e7e2cf2e37-10c0.zip/node_modules/redux/",\
         "packageDependencies": [\
           ["redux", "npm:4.2.1"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"]\
+          ["@babel/runtime", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16563,7 +16563,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/regenerator-transform-npm-0.15.2-109e57a69f-10c0.zip/node_modules/regenerator-transform/",\
         "packageDependencies": [\
           ["regenerator-transform", "npm:0.15.2"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"]\
+          ["@babel/runtime", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16660,7 +16660,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/relay-runtime-npm-12.0.0-d8c4e1bb7b-10c0.zip/node_modules/relay-runtime/",\
         "packageDependencies": [\
           ["relay-runtime", "npm:12.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frelay-runtime%2F-%2Frelay-runtime-12.0.0.tgz"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["fbjs", "npm:3.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffbjs%2F-%2Ffbjs-3.0.5.tgz"],\
           ["invariant", "npm:2.2.4"]\
         ],\
@@ -19328,7 +19328,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/workbox-build-npm-4.3.1-3648f499b8-10c0.zip/node_modules/workbox-build/",\
         "packageDependencies": [\
           ["workbox-build", "npm:4.3.1"],\
-          ["@babel/runtime", "npm:7.26.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.26.0.tgz"],\
+          ["@babel/runtime", "npm:7.27.0"],\
           ["@hapi/joi", "npm:15.1.1"],\
           ["common-tags", "npm:1.8.2"],\
           ["fs-extra", "npm:4.0.3"],\
