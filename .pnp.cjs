@@ -140,7 +140,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/generator", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fgenerator%2F-%2Fgenerator-7.26.3.tgz"],\
           ["@babel/helper-compilation-targets", "npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-compilation-targets%2F-%2Fhelper-compilation-targets-7.25.9.tgz"],\
           ["@babel/helper-module-transforms", "virtual:4e33b26215d232db1ffccd7c58c5ae9bb0faf05304352c2ca50de8f3369ec85b1efeef70d5ce64ba1e4b78c4d0247d06dc2e1e81d5026946fc37bbc7f0be24d5#npm:7.26.0"],\
-          ["@babel/helpers", "npm:7.26.0"],\
+          ["@babel/helpers", "npm:7.27.0"],\
           ["@babel/parser", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fparser%2F-%2Fparser-7.26.3.tgz"],\
           ["@babel/template", "npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftemplate%2F-%2Ftemplate-7.25.9.tgz"],\
           ["@babel/traverse", "npm:7.26.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftraverse%2F-%2Ftraverse-7.26.4.tgz"],\
@@ -469,12 +469,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/helpers", [\
-      ["npm:7.26.0", {\
-        "packageLocation": "../../.yarn/berry/cache/@babel-helpers-npm-7.26.0-d7ff09b837-10c0.zip/node_modules/@babel/helpers/",\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@babel-helpers-npm-7.27.0-661e2983d3-10c0.zip/node_modules/@babel/helpers/",\
         "packageDependencies": [\
-          ["@babel/helpers", "npm:7.26.0"],\
-          ["@babel/template", "npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftemplate%2F-%2Ftemplate-7.25.9.tgz"],\
-          ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"]\
+          ["@babel/helpers", "npm:7.27.0"],\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -498,6 +498,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/parser", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fparser%2F-%2Fparser-7.26.3.tgz"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@babel-parser-npm-7.27.0-ab7dea7b75-10c0.zip/node_modules/@babel/parser/",\
+        "packageDependencies": [\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2612,6 +2620,16 @@ const RAW_RUNTIME_STATE =
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@babel-template-npm-7.27.0-941c698259-10c0.zip/node_modules/@babel/template/",\
+        "packageDependencies": [\
+          ["@babel/template", "npm:7.27.0"],\
+          ["@babel/code-frame", "npm:7.26.2"],\
+          ["@babel/parser", "npm:7.27.0"],\
+          ["@babel/types", "npm:7.27.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/traverse", [\
@@ -2635,6 +2653,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@babel-types-npm-7.26.3-0aac319b49-10c0.zip/node_modules/@babel/types/",\
         "packageDependencies": [\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
+          ["@babel/helper-string-parser", "npm:7.25.9"],\
+          ["@babel/helper-validator-identifier", "npm:7.25.9"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.27.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@babel-types-npm-7.27.0-4fc27759e5-10c0.zip/node_modules/@babel/types/",\
+        "packageDependencies": [\
+          ["@babel/types", "npm:7.27.0"],\
           ["@babel/helper-string-parser", "npm:7.25.9"],\
           ["@babel/helper-validator-identifier", "npm:7.25.9"]\
         ],\
