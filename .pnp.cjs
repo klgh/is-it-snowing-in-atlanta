@@ -3846,7 +3846,7 @@ const RAW_RUNTIME_STATE =
           ["@parcel/utils", "npm:2.8.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40parcel%2Futils%2F-%2Futils-2.8.3.tgz"],\
           ["@parcel/workers", "virtual:976ed4b471bee7b3cfc2aa3b368271f95fb3fcf7f9c932b8a316b42c229ed978204378a84458261b520f1c4dfb662bbca5c39918831c4c99c7d2fd6a168ab3d1#npm:2.8.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40parcel%2Fworkers%2F-%2Fworkers-2.8.3.tgz"],\
           ["abortcontroller-polyfill", "npm:1.7.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fabortcontroller-polyfill%2F-%2Fabortcontroller-polyfill-1.7.8.tgz"],\
-          ["base-x", "npm:3.0.10::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbase-x%2F-%2Fbase-x-3.0.10.tgz"],\
+          ["base-x", "npm:3.0.11"],\
           ["browserslist", "npm:4.24.4"],\
           ["clone", "npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fclone%2F-%2Fclone-2.1.2.tgz"],\
           ["dotenv", "npm:7.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdotenv%2F-%2Fdotenv-7.0.0.tgz"],\
@@ -6436,10 +6436,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["base-x", [\
-      ["npm:3.0.10::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbase-x%2F-%2Fbase-x-3.0.10.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/base-x-npm-3.0.10-36ef849372-10c0.zip/node_modules/base-x/",\
+      ["npm:3.0.11", {\
+        "packageLocation": "../../.yarn/berry/cache/base-x-npm-3.0.11-3798da0834-10c0.zip/node_modules/base-x/",\
         "packageDependencies": [\
-          ["base-x", "npm:3.0.10::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbase-x%2F-%2Fbase-x-3.0.10.tgz"],\
+          ["base-x", "npm:3.0.11"],\
           ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
