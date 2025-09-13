@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["axios", "npm:1.7.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Faxios%2F-%2Faxios-1.7.9.tgz"],\
+          ["axios", "npm:1.12.1"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-adapter-netlify%2F-%2Fgatsby-adapter-netlify-1.2.0.tgz"],\
           ["gatsby-cli", "npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-cli%2F-%2Fgatsby-cli-5.14.0.tgz"],\
@@ -6018,11 +6018,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../.yarn/berry/cache/axios-npm-1.12.1-ff6a194b62-10c0.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:1.12.1"],\
+          ["follow-redirects", "virtual:ff6a194b620abb339a40ad1b9d30dd71edce96bc69211f50dc1507f4df2083120914f7b88a35950a48e91e34be22a064bd3b6343ddce73235aca192c2efbd3c4#npm:1.15.9"],\
+          ["form-data", "npm:4.0.4"],\
+          ["proxy-from-env", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:1.7.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Faxios%2F-%2Faxios-1.7.9.tgz", {\
         "packageLocation": "../../.yarn/berry/cache/axios-npm-1.7.9-d0b68e68cd-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
           ["axios", "npm:1.7.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Faxios%2F-%2Faxios-1.7.9.tgz"],\
-          ["follow-redirects", "virtual:d0b68e68cdffcefb07c80bbb21906e8336b1a1e1a8ea6d5ca0a7f46fae0ff6953187b2882d78b39a833ca2097cb1fb13df7d592aadda260c81df79d75eaa4e91#npm:1.15.9"],\
+          ["follow-redirects", "virtual:ff6a194b620abb339a40ad1b9d30dd71edce96bc69211f50dc1507f4df2083120914f7b88a35950a48e91e34be22a064bd3b6343ddce73235aca192c2efbd3c4#npm:1.15.9"],\
           ["form-data", "npm:4.0.1"],\
           ["proxy-from-env", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz"]\
         ],\
@@ -9969,10 +9979,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:d0b68e68cdffcefb07c80bbb21906e8336b1a1e1a8ea6d5ca0a7f46fae0ff6953187b2882d78b39a833ca2097cb1fb13df7d592aadda260c81df79d75eaa4e91#npm:1.15.9", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-ff18e41a7d/3/.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:ff6a194b620abb339a40ad1b9d30dd71edce96bc69211f50dc1507f4df2083120914f7b88a35950a48e91e34be22a064bd3b6343ddce73235aca192c2efbd3c4#npm:1.15.9", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-e9c563e857/3/.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:d0b68e68cdffcefb07c80bbb21906e8336b1a1e1a8ea6d5ca0a7f46fae0ff6953187b2882d78b39a833ca2097cb1fb13df7d592aadda260c81df79d75eaa4e91#npm:1.15.9"],\
+          ["follow-redirects", "virtual:ff6a194b620abb339a40ad1b9d30dd71edce96bc69211f50dc1507f4df2083120914f7b88a35950a48e91e34be22a064bd3b6343ddce73235aca192c2efbd3c4#npm:1.15.9"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -10058,6 +10068,18 @@ const RAW_RUNTIME_STATE =
           ["form-data", "npm:4.0.1"],\
           ["asynckit", "npm:0.4.0"],\
           ["combined-stream", "npm:1.0.8"],\
+          ["mime-types", "npm:2.1.35"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.4", {\
+        "packageLocation": "../../.yarn/berry/cache/form-data-npm-4.0.4-10eb4ef9c3-10c0.zip/node_modules/form-data/",\
+        "packageDependencies": [\
+          ["form-data", "npm:4.0.4"],\
+          ["asynckit", "npm:0.4.0"],\
+          ["combined-stream", "npm:1.0.8"],\
+          ["es-set-tostringtag", "npm:2.1.0"],\
+          ["hasown", "npm:2.0.2"],\
           ["mime-types", "npm:2.1.35"]\
         ],\
         "linkType": "HARD"\
@@ -12291,7 +12313,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["is-it-snowing-in-atlanta", "workspace:."],\
-          ["axios", "npm:1.7.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Faxios%2F-%2Faxios-1.7.9.tgz"],\
+          ["axios", "npm:1.12.1"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.14.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby%2F-%2Fgatsby-5.14.1.tgz"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-adapter-netlify%2F-%2Fgatsby-adapter-netlify-1.2.0.tgz"],\
           ["gatsby-cli", "npm:5.14.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgatsby-cli%2F-%2Fgatsby-cli-5.14.0.tgz"],\
