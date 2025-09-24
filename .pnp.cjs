@@ -15873,7 +15873,7 @@ const RAW_RUNTIME_STATE =
           ["pump", "npm:3.0.2"],\
           ["rc", "npm:1.2.8"],\
           ["simple-get", "npm:4.0.1"],\
-          ["tar-fs", "npm:2.1.1"],\
+          ["tar-fs", "npm:2.1.4"],\
           ["tunnel-agent", "npm:0.6.0"]\
         ],\
         "linkType": "HARD"\
@@ -18226,10 +18226,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tar-fs", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "../../.yarn/berry/cache/tar-fs-npm-2.1.1-e374d3b7a2-10c0.zip/node_modules/tar-fs/",\
+      ["npm:2.1.4", {\
+        "packageLocation": "../../.yarn/berry/cache/tar-fs-npm-2.1.4-90a454735f-10c0.zip/node_modules/tar-fs/",\
         "packageDependencies": [\
-          ["tar-fs", "npm:2.1.1"],\
+          ["tar-fs", "npm:2.1.4"],\
           ["chownr", "npm:1.1.4"],\
           ["mkdirp-classic", "npm:0.5.3"],\
           ["pump", "npm:3.0.2"],\
