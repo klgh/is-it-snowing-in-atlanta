@@ -2693,7 +2693,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:13.24.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fglobals%2F-%2Fglobals-13.24.0.tgz"],\
           ["ignore", "npm:4.0.6"],\
           ["import-fresh", "npm:3.3.0"],\
-          ["js-yaml", "npm:3.14.1"],\
+          ["js-yaml", "npm:3.14.2"],\
           ["minimatch", "npm:3.1.2"],\
           ["strip-json-comments", "npm:3.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-json-comments%2F-%2Fstrip-json-comments-3.1.1.tgz"]\
         ],\
@@ -8974,7 +8974,7 @@ const RAW_RUNTIME_STATE =
           ["import-fresh", "npm:3.3.0"],\
           ["imurmurhash", "npm:0.1.4"],\
           ["is-glob", "npm:4.0.3"],\
-          ["js-yaml", "npm:3.14.1"],\
+          ["js-yaml", "npm:3.14.2"],\
           ["json-stable-stringify-without-jsonify", "npm:1.0.1"],\
           ["levn", "npm:0.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flevn%2F-%2Flevn-0.4.1.tgz"],\
           ["lodash.merge", "npm:4.6.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.merge%2F-%2Flodash.merge-4.6.2.tgz"],\
@@ -12771,10 +12771,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["js-yaml", [\
-      ["npm:3.14.1", {\
-        "packageLocation": "../../.yarn/berry/cache/js-yaml-npm-3.14.1-b968c6095e-10c0.zip/node_modules/js-yaml/",\
+      ["npm:3.14.2", {\
+        "packageLocation": "../../.yarn/berry/cache/js-yaml-npm-3.14.2-debd9d20c3-10c0.zip/node_modules/js-yaml/",\
         "packageDependencies": [\
-          ["js-yaml", "npm:3.14.1"],\
+          ["js-yaml", "npm:3.14.2"],\
           ["argparse", "npm:1.0.10"],\
           ["esprima", "npm:4.0.1"]\
         ],\
