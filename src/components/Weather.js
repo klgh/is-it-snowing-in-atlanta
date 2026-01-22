@@ -1,28 +1,27 @@
 import React from "react"
 import Snow from "./snow"
-
 const Weather = (props) => {
   const { weatherAPI } = props
-  if (!weatherAPI || weatherAPI.length === 0) return <p>no weather info</p>
+  if (!weatherAPI) return <p>Checking the clouds...</p>
+
+  const isSnowing = weatherAPI.weather[0].main === "Snow"
 
   return (
-    <div className="weather ">
-      {/* if main = snow, show the snow component */}
-      {weatherAPI.weather[0].main === "Snow" ? <Snow /> : ""}
-      <h1>
-        {/* if main = snow print YES */}
-        {weatherAPI.weather[0].main === "Snow" ? "YES!" : ""}
-      </h1>
-      {/* if its not snowing, print no in italics and a sad face emoji */}
-      {weatherAPI.weather[0].main !== "Snow" ? <p>Nope 😭</p> : ""}
+    <main className="weather">
+      {/* aria-live="polite" triggers a screen reader announcement on update */}
+      <div aria-live="polite" aria-atomic="true">
+        <h1>
+          {isSnowing ? "YES!" : "Nope 😭"}
+        </h1>
+      </div>
+
+      {isSnowing && <Snow />}
+
       <p>
-        {" "}
-        There is currently {weatherAPI.weather[0].description} in{" "}
-        {weatherAPI.name} <br />
-        {/* convert temp from kelvin to fahrenheit */}
+        Currently {weatherAPI.weather[0].description} in {weatherAPI.name} <br />
         It is {Math.round(((weatherAPI.main.temp - 273.15) * 9) / 5 + 32)}°F
       </p>
-    </div>
+    </main>
   )
 }
 export default Weather
