@@ -5886,7 +5886,7 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:066c11ac51c5b8330a703e9cd59a250bfc4637e02f517309b387b366511246c3848aceba8c6ff32aa805c553e6061355a821f696f2a99e6add88b76a9c9b5777#npm:10.4.20::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fautoprefixer%2F-%2Fautoprefixer-10.4.20.tgz"],\
           ["@types/postcss", null],\
           ["browserslist", "npm:4.24.4"],\
-          ["caniuse-lite", "npm:1.0.30001692::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001692.tgz"],\
+          ["caniuse-lite", "npm:1.0.30001765::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001765.tgz"],\
           ["fraction.js", "npm:4.3.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffraction.js%2F-%2Ffraction.js-4.3.7.tgz"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.1.1"],\
@@ -6495,7 +6495,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/browserslist-npm-4.24.4-2fdeb5face-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
-          ["caniuse-lite", "npm:1.0.30001692::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001692.tgz"],\
+          ["caniuse-lite", "npm:1.0.30001765::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001765.tgz"],\
           ["electron-to-chromium", "npm:1.5.79"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.2"]\
@@ -6718,7 +6718,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["caniuse-api", "npm:3.0.0"],\
           ["browserslist", "npm:4.24.4"],\
-          ["caniuse-lite", "npm:1.0.30001692::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001692.tgz"],\
+          ["caniuse-lite", "npm:1.0.30001765::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001765.tgz"],\
           ["lodash.memoize", "npm:4.1.2"],\
           ["lodash.uniq", "npm:4.5.0"]\
         ],\
@@ -6726,10 +6726,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001692::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001692.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001692-3a25c2d9c5-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001765::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001765.tgz", {\
+        "packageLocation": "../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001765-0f686562d9-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001692::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001692.tgz"]\
+          ["caniuse-lite", "npm:1.0.30001765::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001765.tgz"]\
         ],\
         "linkType": "HARD"\
       }]\
