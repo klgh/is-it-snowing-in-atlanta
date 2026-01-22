@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["axios", "npm:1.12.2"],\
+          ["axios", "npm:1.13.2"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.3.0"],\
           ["gatsby-cli", "npm:5.15.0"],\
@@ -41,12 +41,12 @@ const RAW_RUNTIME_STATE =
           ["gatsby-source-filesystem", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["gatsby-transformer-sharp", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["node-addon-api", "npm:8.5.0"],\
-          ["prettier", "npm:3.6.2"],\
+          ["prettier", "npm:3.8.1"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-18.3.1.tgz"],\
           ["react-dom", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"],\
           ["react-helmet", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:6.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-helmet%2F-%2Freact-helmet-6.1.0.tgz"],\
-          ["sass", "npm:1.93.2"]\
+          ["sass", "npm:1.97.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5919,11 +5919,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.12.2", {\
-        "packageLocation": "../../.yarn/berry/cache/axios-npm-1.12.2-cdb8ea6c90-10c0.zip/node_modules/axios/",\
+      ["npm:1.13.2", {\
+        "packageLocation": "../../.yarn/berry/cache/axios-npm-1.13.2-90e3ae8f5d-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.12.2"],\
-          ["follow-redirects", "virtual:cdb8ea6c90bba762bf2366a1a88869c55a09bf9d9076ce8fcccf1e27011bd6d92acc154b2b250d8981e0c9daf722c96602b003df3b346cc7d59ad22f6b68080f#npm:1.15.9"],\
+          ["axios", "npm:1.13.2"],\
+          ["follow-redirects", "virtual:90e3ae8f5d1081a2ebe4b7d99c8598618635aa223fffb3774885e7f413ad9bd6e2700dac780ec12f15baa5a1a39c5137b65b9a0b781e508a9f050aac6152f2f5#npm:1.15.9"],\
           ["form-data", "npm:4.0.4"],\
           ["proxy-from-env", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz"]\
         ],\
@@ -9810,10 +9810,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cdb8ea6c90bba762bf2366a1a88869c55a09bf9d9076ce8fcccf1e27011bd6d92acc154b2b250d8981e0c9daf722c96602b003df3b346cc7d59ad22f6b68080f#npm:1.15.9", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-3abb14b571/3/.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:90e3ae8f5d1081a2ebe4b7d99c8598618635aa223fffb3774885e7f413ad9bd6e2700dac780ec12f15baa5a1a39c5137b65b9a0b781e508a9f050aac6152f2f5#npm:1.15.9", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-cf5a92a81a/3/.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:cdb8ea6c90bba762bf2366a1a88869c55a09bf9d9076ce8fcccf1e27011bd6d92acc154b2b250d8981e0c9daf722c96602b003df3b346cc7d59ad22f6b68080f#npm:1.15.9"],\
+          ["follow-redirects", "virtual:90e3ae8f5d1081a2ebe4b7d99c8598618635aa223fffb3774885e7f413ad9bd6e2700dac780ec12f15baa5a1a39c5137b65b9a0b781e508a9f050aac6152f2f5#npm:1.15.9"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -10131,7 +10131,7 @@ const RAW_RUNTIME_STATE =
           ["address", "npm:1.2.2"],\
           ["anser", "npm:2.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fanser%2F-%2Fanser-2.3.0.tgz"],\
           ["autoprefixer", "virtual:066c11ac51c5b8330a703e9cd59a250bfc4637e02f517309b387b366511246c3848aceba8c6ff32aa805c553e6061355a821f696f2a99e6add88b76a9c9b5777#npm:10.4.20::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fautoprefixer%2F-%2Fautoprefixer-10.4.20.tgz"],\
-          ["axios", "npm:1.12.2"],\
+          ["axios", "npm:1.13.2"],\
           ["babel-jsx-utils", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-jsx-utils%2F-%2Fbabel-jsx-utils-1.1.0.tgz"],\
           ["babel-loader", "virtual:066c11ac51c5b8330a703e9cd59a250bfc4637e02f517309b387b366511246c3848aceba8c6ff32aa805c553e6061355a821f696f2a99e6add88b76a9c9b5777#npm:8.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-loader%2F-%2Fbabel-loader-8.4.1.tgz"],\
           ["babel-plugin-add-module-exports", "npm:1.0.4"],\
@@ -10670,7 +10670,7 @@ const RAW_RUNTIME_STATE =
           ["@types/sass", null],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["resolve-url-loader", "npm:3.1.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-url-loader%2F-%2Fresolve-url-loader-3.1.5.tgz"],\
-          ["sass", "npm:1.93.2"],\
+          ["sass", "npm:1.97.3"],\
           ["sass-loader", "virtual:36767dc21b9474c29f0f1a212ffe21eeecaf255cb36bb2415e19bd8ba716593cf2eba3dbed339cc4cf374517e0e1d8435e6c5567f94b6ebb9b35904ba97e2899#npm:10.5.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsass-loader%2F-%2Fsass-loader-10.5.2.tgz"]\
         ],\
         "packagePeers": [\
@@ -12125,7 +12125,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["is-it-snowing-in-atlanta", "workspace:."],\
-          ["axios", "npm:1.12.2"],\
+          ["axios", "npm:1.13.2"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.3.0"],\
           ["gatsby-cli", "npm:5.15.0"],\
@@ -12139,12 +12139,12 @@ const RAW_RUNTIME_STATE =
           ["gatsby-source-filesystem", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["gatsby-transformer-sharp", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["node-addon-api", "npm:8.5.0"],\
-          ["prettier", "npm:3.6.2"],\
+          ["prettier", "npm:3.8.1"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-18.3.1.tgz"],\
           ["react-dom", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"],\
           ["react-helmet", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:6.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-helmet%2F-%2Freact-helmet-6.1.0.tgz"],\
-          ["sass", "npm:1.93.2"]\
+          ["sass", "npm:1.97.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -15688,10 +15688,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.6.2", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.6.2-2668152203/node_modules/prettier/",\
+      ["npm:3.8.1", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.8.1-04022a855f/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.6.2"]\
+          ["prettier", "npm:3.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16764,10 +16764,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.93.2", {\
-        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.93.2-b5109840d8-10c0.zip/node_modules/sass/",\
+      ["npm:1.97.3", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.97.3-632c69cd32-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.93.2"],\
+          ["sass", "npm:1.97.3"],\
           ["@parcel/watcher", "npm:2.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40parcel%2Fwatcher%2F-%2Fwatcher-2.5.0.tgz"],\
           ["chokidar", "npm:4.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fchokidar%2F-%2Fchokidar-4.0.3.tgz"],\
           ["immutable", "npm:5.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fimmutable%2F-%2Fimmutable-5.0.3.tgz"],\
@@ -16797,7 +16797,7 @@ const RAW_RUNTIME_STATE =
           ["loader-utils", "npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Floader-utils%2F-%2Floader-utils-2.0.4.tgz"],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.93.2"],\
+          ["sass", "npm:1.97.3"],\
           ["schema-utils", "npm:3.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fschema-utils%2F-%2Fschema-utils-3.3.0.tgz"],\
           ["semver", "npm:7.6.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsemver%2F-%2Fsemver-7.6.3.tgz"],\
           ["webpack", null]\
