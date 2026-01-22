@@ -19,9 +19,10 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
+    "dev": "netlify dev",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
-    "start": "npm run develop",
+    "start": "npm run dev",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -47,6 +48,7 @@
     "sass": "^1.97.3"
   },
   "devDependencies": {
+    "netlify-cli": "^23.13.5",
     "prettier": "3.8.1"
   },
   "packageManager": "yarn@4.6.0"

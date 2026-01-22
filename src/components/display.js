@@ -7,23 +7,27 @@ function Display() {
   const WeatherLoading = loading(Weather)
   const [appState, setAppState] = useState({
     loading: false,
-    weather: null,
+    weatherAPI: null,
   })
 
   useEffect(() => {
     setAppState({ loading: true })
-    // TODO Hide API KEY
-    const apiUrl =
-      "https://api.openweathermap.org/data/2.5/weather?q=atlanta&appid=eedea857757c1fc226a3ec6cc3b917b1"
-    axios.get(apiUrl).then((weatherAPI) => {
-      const allweatherAPI = weatherAPI.data
-      setAppState({ loading: false, weatherAPI: allweatherAPI })
-    })
+    
+    // Call your Netlify function instead of the direct API URL
+    const functionUrl = "/.netlify/functions/get-weather"
+    
+    axios.get(functionUrl)
+      .then((response) => {
+        setAppState({ loading: false, weatherAPI: response.data })
+      })
+      .catch((error) => {
+        console.error("Error fetching weather:", error)
+        setAppState({ loading: false, weatherAPI: null })
+      })
   }, [setAppState])
 
   return (
     <div className="App">
-      <div className="container"></div>
       <div className="Weather">
         <WeatherLoading
           isLoading={appState.loading}
