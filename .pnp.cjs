@@ -12977,10 +12977,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lodash-es", [\
-      ["npm:4.17.21::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash-es%2F-%2Flodash-es-4.17.21.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash-es-npm-4.17.21-f4ab431c35-10c0.zip/node_modules/lodash-es/",\
+      ["npm:4.17.23", {\
+        "packageLocation": "../../.yarn/berry/cache/lodash-es-npm-4.17.23-b4279789e6-10c0.zip/node_modules/lodash-es/",\
         "packageDependencies": [\
-          ["lodash-es", "npm:4.17.21::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash-es%2F-%2Flodash-es-4.17.21.tgz"]\
+          ["lodash-es", "npm:4.17.23"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13820,7 +13820,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["netlify", "npm:13.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnetlify%2F-%2Fnetlify-13.2.1.tgz"],\
           ["@netlify/open-api", "npm:2.35.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40netlify%2Fopen-api%2F-%2Fopen-api-2.35.0.tgz"],\
-          ["lodash-es", "npm:4.17.21::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash-es%2F-%2Flodash-es-4.17.21.tgz"],\
+          ["lodash-es", "npm:4.17.23"],\
           ["micro-api-client", "npm:3.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmicro-api-client%2F-%2Fmicro-api-client-3.3.0.tgz"],\
           ["node-fetch", "npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-fetch%2F-%2Fnode-fetch-3.3.2.tgz"],\
           ["omit.js", "npm:2.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fomit.js%2F-%2Fomit.js-2.0.2.tgz"],\
