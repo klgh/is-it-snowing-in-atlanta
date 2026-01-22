@@ -67,3 +67,6 @@ yarn-error.log
 .pnp.js
 .yarn-integrity
 .yarn/install-state.gz
+
+# Local Netlify folder
+.netlify
