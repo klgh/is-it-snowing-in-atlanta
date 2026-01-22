@@ -2849,7 +2849,7 @@ const RAW_RUNTIME_STATE =
           ["common-tags", "npm:1.8.2"],\
           ["graphql", "npm:16.10.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgraphql%2F-%2Fgraphql-16.10.0.tgz"],\
           ["import-from", "npm:4.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fimport-from%2F-%2Fimport-from-4.0.0.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["tslib", "npm:2.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-2.4.1.tgz"]\
         ],\
         "packagePeers": [\
@@ -2868,7 +2868,7 @@ const RAW_RUNTIME_STATE =
           ["common-tags", "npm:1.8.2"],\
           ["graphql", "npm:16.10.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgraphql%2F-%2Fgraphql-16.10.0.tgz"],\
           ["import-from", "npm:4.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fimport-from%2F-%2Fimport-from-4.0.0.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["tslib", "npm:2.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-2.4.1.tgz"]\
         ],\
         "packagePeers": [\
@@ -4571,7 +4571,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/helper-module-imports", "npm:7.25.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fhelper-module-imports%2F-%2Fhelper-module-imports-7.25.9.tgz"],\
           ["@babel/types", "npm:7.26.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Ftypes%2F-%2Ftypes-7.26.3.tgz"],\
           ["glob", "npm:7.2.3"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["require-package-name", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -8966,7 +8966,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-flowtype", "virtual:066c11ac51c5b8330a703e9cd59a250bfc4637e02f517309b387b366511246c3848aceba8c6ff32aa805c553e6061355a821f696f2a99e6add88b76a9c9b5777#npm:5.10.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint-plugin-flowtype%2F-%2Feslint-plugin-flowtype-5.10.0.tgz"],\
           ["@types/eslint", null],\
           ["eslint", "npm:7.32.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint%2F-%2Feslint-7.32.0.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["string-natural-compare", "npm:3.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstring-natural-compare%2F-%2Fstring-natural-compare-3.0.1.tgz"]\
         ],\
         "packagePeers": [\
@@ -10208,7 +10208,7 @@ const RAW_RUNTIME_STATE =
           ["latest-version", "npm:7.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flatest-version%2F-%2Flatest-version-7.0.0.tgz"],\
           ["linkfs", "npm:2.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flinkfs%2F-%2Flinkfs-2.1.0.tgz"],\
           ["lmdb", "npm:2.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flmdb%2F-%2Flmdb-2.5.3.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["meant", "npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmeant%2F-%2Fmeant-1.0.3.tgz"],\
           ["memoizee", "npm:0.4.17"],\
           ["micromatch", "npm:4.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmicromatch%2F-%2Fmicromatch-4.0.8.tgz"],\
@@ -10336,7 +10336,7 @@ const RAW_RUNTIME_STATE =
           ["hosted-git-info", "npm:3.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhosted-git-info%2F-%2Fhosted-git-info-3.0.8.tgz"],\
           ["is-valid-path", "npm:0.1.1"],\
           ["joi", "npm:17.13.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fjoi%2F-%2Fjoi-17.13.3.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["node-fetch", "virtual:0e8c9a1f1d9110f8dac05d2df5a850a51d2cbd5f1b14d09fb167f6e193a7832ab97a146f75c18f9ab031c872651301375356d85880125c8a9acbc7075f3cfb40#npm:2.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-fetch%2F-%2Fnode-fetch-2.7.0.tgz"],\
           ["opentracing", "npm:0.14.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fopentracing%2F-%2Fopentracing-0.14.7.tgz"],\
           ["pretty-error", "npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpretty-error%2F-%2Fpretty-error-2.1.2.tgz"],\
@@ -10456,7 +10456,7 @@ const RAW_RUNTIME_STATE =
           ["fs-exists-cached", "npm:1.0.0"],\
           ["gatsby-core-utils", "npm:4.15.0"],\
           ["glob", "npm:7.2.3"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["micromatch", "npm:4.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmicromatch%2F-%2Fmicromatch-4.0.8.tgz"]\
         ],\
         "linkType": "HARD"\
@@ -10577,7 +10577,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-core-utils", "npm:4.15.0"],\
           ["glob", "npm:7.2.3"],\
           ["idb-keyval", "npm:3.2.0"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-18.3.1.tgz"],\
           ["react-dom", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"],\
           ["workbox-build", "npm:4.3.1"]\
@@ -10617,7 +10617,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-page-utils", "npm:3.15.0"],\
           ["gatsby-plugin-utils", "virtual:17b7bd56b65263dad0bafc5bd3de9d106c6375854aef453adf1c6c6c2a1cb69313f688bc26d9679ee27a8706851815cc84387325988948f272a3785dfcd0aea3#npm:4.15.0"],\
           ["globby", "npm:11.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fglobby%2F-%2Fglobby-11.1.0.tgz"],\
-          ["lodash", "npm:4.17.21"]\
+          ["lodash", "npm:4.17.23"]\
         ],\
         "packagePeers": [\
           "@types/gatsby",\
@@ -10704,7 +10704,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.15.0"],\
           ["gatsby-core-utils", "npm:4.15.0"],\
           ["gatsby-plugin-utils", "virtual:17b7bd56b65263dad0bafc5bd3de9d106c6375854aef453adf1c6c6c2a1cb69313f688bc26d9679ee27a8706851815cc84387325988948f272a3785dfcd0aea3#npm:4.15.0"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["probe-image-size", "npm:7.2.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprobe-image-size%2F-%2Fprobe-image-size-7.2.3.tgz"],\
           ["semver", "npm:7.6.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsemver%2F-%2Fsemver-7.6.3.tgz"],\
           ["sharp", "npm:0.32.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsharp%2F-%2Fsharp-0.32.6.tgz"]\
@@ -11821,7 +11821,7 @@ const RAW_RUNTIME_STATE =
           ["cli-width", "npm:3.0.0"],\
           ["external-editor", "npm:3.1.0"],\
           ["figures", "npm:3.2.0"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["mute-stream", "npm:0.0.8"],\
           ["run-async", "npm:2.4.1"],\
           ["rxjs", "npm:6.6.7"],\
@@ -12968,10 +12968,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lodash", [\
-      ["npm:4.17.21", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
+      ["npm:4.17.23", {\
+        "packageLocation": "../../.yarn/berry/cache/lodash-npm-4.17.23-50bdb1c01a-10c0.zip/node_modules/lodash/",\
         "packageDependencies": [\
-          ["lodash", "npm:4.17.21"]\
+          ["lodash", "npm:4.17.23"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15710,7 +15710,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/pretty-error-npm-2.1.2-ec189e4779-10c0.zip/node_modules/pretty-error/",\
         "packageDependencies": [\
           ["pretty-error", "npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpretty-error%2F-%2Fpretty-error-2.1.2.tgz"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["renderkid", "npm:2.0.7"]\
         ],\
         "linkType": "HARD"\
@@ -16460,7 +16460,7 @@ const RAW_RUNTIME_STATE =
           ["css-select", "npm:4.3.0"],\
           ["dom-converter", "npm:0.2.0"],\
           ["htmlparser2", "npm:6.1.0"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["strip-ansi", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
