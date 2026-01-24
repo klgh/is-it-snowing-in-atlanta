@@ -56,49 +56,49 @@ const Weather = (props) => {
       </p>
 
       {alerts.length > 0 && (
-        <div className="alerts" style={{ marginTop: "1.45rem", padding: "1.45rem", backgroundColor: "hsla(0, 0%, 0%, 0.02)", borderLeft: "4px solid #338099", marginBottom: "1.45rem" }}>
-          <h2 style={{ marginTop: 0, marginBottom: "1.45rem", color: "inherit", fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" }}>
+        <div className="alerts" >
+          <h2 >
             ⚠️ National Weather Service Alerts
           </h2>
           {alerts.map((alert, index) => {
             const properties = alert.properties || {}
             const severity = properties.severity || "Unknown"
             const severityColor = getSeverityColor(severity)
-            
+
             return (
-              <div key={alert.id || index} style={{ marginBottom: index < alerts.length - 1 ? "1.45rem" : 0, paddingBottom: index < alerts.length - 1 ? "1.45rem" : 0, borderBottom: index < alerts.length - 1 ? "1px solid hsla(0, 0%, 0%, 0.12)" : "none" }}>
-                <h3 style={{ marginTop: 0, marginBottom: "0.725rem", color: severityColor, fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" }}>
+              <div key={alert.id || index} >
+                <h3 >
                   {properties.event || "Weather Alert"}
                 </h3>
                 <p style={{ margin: "0.725rem 0", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
                   <strong>Severity:</strong> <span style={{ color: severityColor, fontWeight: "bold" }}>{severity}</span>
                   {properties.certainty && (
-                    <> | <strong>Certainty:</strong> {properties.certainty}</>
+                    <> | <strong>Certainty:</strong> {properties.parameters.NWSheadline}</>
                   )}
                 </p>
-                {properties.senderName && (
-                  <p style={{ margin: "0.725rem 0", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
+                {/* {properties.senderName && (
+                  <p >
                     <strong>Source:</strong> {properties.senderName}
                   </p>
-                )}
-                {properties.effective && properties.expires && (
-                  <p style={{ margin: "0.725rem 0", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
-                    <strong>From:</strong> {formatDate(properties.effective)} <strong>To:</strong> {formatDate(properties.expires)}
+                )} */}
+                {properties.ends && (
+                  <p >
+                    <strong>Alert Ends:</strong> {formatDate(properties.ends)}
                   </p>
                 )}
                 {properties.headline && (
-                  <p style={{ margin: "0.725rem 0", fontWeight: "bold", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
+                  <p >
                     {properties.headline}
                   </p>
                 )}
-                {properties.description && (
-                  <p style={{ margin: "0.725rem 0 0 0", whiteSpace: "pre-wrap", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
+                {/* {properties.description && (
+                  <p >
                     {properties.description}
                   </p>
-                )}
-                {properties.instruction && (
-                  <p style={{ margin: "0.725rem 0 0 0", whiteSpace: "pre-wrap", fontStyle: "italic", color: "hsla(0, 0%, 0%, 0.7)", fontFamily: "georgia, serif" }}>
-                    <strong>Instructions:</strong> {properties.instruction}
+                )} */}
+                {properties.event && (
+                  <p >
+                    <strong>EVENT:</strong> {properties.event}
                   </p>
                 )}
               </div>
