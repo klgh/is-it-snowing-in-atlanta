@@ -11,7 +11,7 @@ const Weather = (props) => {
       {/* aria-live="polite" triggers a screen reader announcement on update */}
       <div aria-live="polite" aria-atomic="true">
         <h1>
-          {isSnowing ? "YES!" : "Nope 😭"}
+          {isSnowing ? "❄️ YES! 🎉" : "Nope 😭"}
         </h1>
       </div>
 
