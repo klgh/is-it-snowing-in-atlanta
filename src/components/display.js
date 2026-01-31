@@ -23,13 +23,10 @@ function Display() {
       "https://api.weather.gov/alerts/active?point=33.7490,-84.3880"
     
     // Fetch weather data and alerts in parallel
+    // User-Agent cannot be set in browser (forbidden header); NWS requests work without it
     Promise.all([
       axios.get(weatherApiUrl),
-      axios.get(alertsApiUrl, {
-        headers: {
-          'User-Agent': 'is-it-snowing-in-atlanta (contact: your-email@example.com)'
-        }
-      }).catch(() => ({ data: { features: [] } })) // Handle errors gracefully
+      axios.get(alertsApiUrl).catch(() => ({ data: { features: [] } }))
     ]).then(([weatherResponse, alertsResponse]) => {
       const allweatherAPI = weatherResponse.data
       const alerts = alertsResponse.data.features || []

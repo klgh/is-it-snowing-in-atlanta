@@ -1,21 +1,7 @@
 import React from "react"
 import Snow from "./snow"
 
-/**
- * Formats a date string to a readable format
- * @param {string} dateString - ISO date string
- * @returns {string} Formatted date string
- */
-const formatDate = (dateString) => {
-  const date = new Date(dateString)
-  return date.toLocaleString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-  })
-}
+
 
 /**
  * Gets the severity color based on NWS severity level
@@ -40,7 +26,7 @@ const Weather = (props) => {
   const isSnowing = weatherAPI.weather[0].main === "Snow"
 
   return (
-    <main className="weather">
+    <div className="weather">
       {/* aria-live="polite" triggers a screen reader announcement on update */}
       <div aria-live="polite" aria-atomic="true">
         <h1>
@@ -56,57 +42,31 @@ const Weather = (props) => {
       </p>
 
       {alerts.length > 0 && (
-        <div className="alerts" >
-          <h2 >
+        <div className="nws-alerts" >
+          <h2>
             ⚠️ National Weather Service Alerts
           </h2>
-          {alerts.map((alert, index) => {
-            const properties = alert.properties || {}
-            const severity = properties.severity || "Unknown"
-            const severityColor = getSeverityColor(severity)
-
-            return (
-              <div key={alert.id || index} >
-                <h3 >
-                  {properties.event || "Weather Alert"}
-                </h3>
-                <p style={{ margin: "0.725rem 0", color: "hsla(0, 0%, 0%, 0.8)", fontFamily: "georgia, serif" }}>
-                  <strong>Severity:</strong> <span style={{ color: severityColor, fontWeight: "bold" }}>{severity}</span>
-                  {properties.certainty && (
-                    <> | <strong>Certainty:</strong> {properties.parameters.NWSheadline}</>
+          <div className="alerts" aria-hidden="true">
+            {alerts.map((alert, index) => {
+              const properties = alert.properties || {}
+              const severity = properties.severity || "Unknown"
+              const severityColor = getSeverityColor(severity)
+              return (
+                <div className="alert" key={alert.id || index} >
+                  <h3 ><span style={{ color: severityColor, fontWeight: "bold" }}>{severity} </span>
+                    {properties.event || "Weather Alert"}
+                  </h3>
+                  {properties.headline && (
+                    <p>
+                      {properties.headline}
+                    </p>
                   )}
-                </p>
-                {/* {properties.senderName && (
-                  <p >
-                    <strong>Source:</strong> {properties.senderName}
-                  </p>
-                )} */}
-                {properties.ends && (
-                  <p >
-                    <strong>Alert Ends:</strong> {formatDate(properties.ends)}
-                  </p>
-                )}
-                {properties.headline && (
-                  <p >
-                    {properties.headline}
-                  </p>
-                )}
-                {/* {properties.description && (
-                  <p >
-                    {properties.description}
-                  </p>
-                )} */}
-                {properties.event && (
-                  <p >
-                    <strong>EVENT:</strong> {properties.event}
-                  </p>
-                )}
-              </div>
-            )
-          })}
-        </div>
+                </div>
+              )
+            })}
+          </div></div>
       )}
-    </main>
+    </div>
   )
 }
 export default Weather
