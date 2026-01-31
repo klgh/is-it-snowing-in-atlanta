@@ -1,42 +1,42 @@
 import React from "react"
 const Snow = () => {
   return (
-    <div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+    <div className="snow-container" aria-hidden="true">
+      <div className="snowflake">
+        <div className="snowflake"><div className="inner">❅</div></div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
-      <div class="snowflake">
-        <div class="inner">❅</div>
+      <div className="snowflake">
+        <div className="inner">❅</div>
       </div>
     </div>
   )

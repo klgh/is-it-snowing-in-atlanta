@@ -4,4 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+/** @param {{ setHtmlAttributes: (attrs: { lang?: string }) => void }} args */
+export const onRenderBody = ({ setHtmlAttributes }) => {
+  setHtmlAttributes({ lang: "en", title: "Is It Snowing In Atlanta?" })
+}
