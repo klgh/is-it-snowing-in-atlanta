@@ -10,3 +10,5 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+
+export const Head = () => <title>Is It Snowing In Atlanta? – Page Not Found</title>
