@@ -2695,7 +2695,7 @@ const RAW_RUNTIME_STATE =
           ["ignore", "npm:4.0.6"],\
           ["import-fresh", "npm:3.3.0"],\
           ["js-yaml", "npm:3.14.1"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["strip-json-comments", "npm:3.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-json-comments%2F-%2Fstrip-json-comments-3.1.1.tgz"]\
         ],\
         "linkType": "HARD"\
@@ -3308,7 +3308,7 @@ const RAW_RUNTIME_STATE =
           ["@humanwhocodes/config-array", "npm:0.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40humanwhocodes%2Fconfig-array%2F-%2Fconfig-array-0.5.0.tgz"],\
           ["@humanwhocodes/object-schema", "npm:1.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40humanwhocodes%2Fobject-schema%2F-%2Fobject-schema-1.2.1.tgz"],\
           ["debug", "virtual:c74918c25392371aa6e7850361a0971111083ef2fd4e60448fc17775bca77eabfc9a929819588611b7ac2a4e3dde0c86ab3edf1a3f63ad2f865256f8d5222ebc#npm:4.4.3"],\
-          ["minimatch", "npm:3.1.2"]\
+          ["minimatch", "npm:3.1.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8836,7 +8836,7 @@ const RAW_RUNTIME_STATE =
           ["json-stable-stringify-without-jsonify", "npm:1.0.1"],\
           ["levn", "npm:0.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flevn%2F-%2Flevn-0.4.1.tgz"],\
           ["lodash.merge", "npm:4.6.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.merge%2F-%2Flodash.merge-4.6.2.tgz"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["natural-compare", "npm:1.4.0"],\
           ["optionator", "npm:0.9.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Foptionator%2F-%2Foptionator-0.9.4.tgz"],\
           ["progress", "npm:2.0.3"],\
@@ -9021,7 +9021,7 @@ const RAW_RUNTIME_STATE =
           ["hasown", "npm:2.0.2"],\
           ["is-core-module", "npm:2.16.1"],\
           ["is-glob", "npm:4.0.3"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["object.fromentries", "npm:2.0.8"],\
           ["object.groupby", "npm:1.0.3"],\
           ["object.values", "npm:1.2.1"],\
@@ -9063,7 +9063,7 @@ const RAW_RUNTIME_STATE =
           ["hasown", "npm:2.0.2"],\
           ["jsx-ast-utils", "npm:3.3.5"],\
           ["language-tags", "npm:1.0.9"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["object.fromentries", "npm:2.0.8"],\
           ["safe-regex-test", "npm:1.1.0"],\
           ["string.prototype.includes", "npm:2.0.1"]\
@@ -9098,7 +9098,7 @@ const RAW_RUNTIME_STATE =
           ["estraverse", "npm:5.3.0"],\
           ["hasown", "npm:2.0.2"],\
           ["jsx-ast-utils", "npm:3.3.5"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["object.entries", "npm:1.1.8"],\
           ["object.fromentries", "npm:2.0.8"],\
           ["object.values", "npm:1.2.1"],\
@@ -9888,7 +9888,7 @@ const RAW_RUNTIME_STATE =
           ["fs-extra", "npm:9.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffs-extra%2F-%2Ffs-extra-9.1.0.tgz"],\
           ["glob", "npm:7.2.3"],\
           ["memfs", "npm:3.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmemfs%2F-%2Fmemfs-3.5.3.tgz"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["schema-utils", "npm:2.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fschema-utils%2F-%2Fschema-utils-2.7.0.tgz"],\
           ["semver", "npm:7.6.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsemver%2F-%2Fsemver-7.6.3.tgz"],\
           ["tapable", "npm:1.1.3"],\
@@ -10518,7 +10518,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", null],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.16.0"],\
           ["gatsby-plugin-google-analytics", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.16.0"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["react", "npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-18.3.1.tgz"],\
           ["react-dom", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:18.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-18.3.1.tgz"],\
           ["web-vitals", "npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fweb-vitals%2F-%2Fweb-vitals-1.1.2.tgz"]\
@@ -11072,7 +11072,7 @@ const RAW_RUNTIME_STATE =
           ["glob", "npm:7.2.3"],\
           ["inflight", "npm:1.0.6"],\
           ["inherits", "npm:2.0.4"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["once", "npm:1.4.0"],\
           ["path-is-absolute", "npm:1.0.1"]\
         ],\
@@ -13523,11 +13523,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["minimatch", [\
-      ["npm:3.1.2", {\
-        "packageLocation": "../../.yarn/berry/cache/minimatch-npm-3.1.2-9405269906-10c0.zip/node_modules/minimatch/",\
+      ["npm:3.1.4", {\
+        "packageLocation": "../../.yarn/berry/cache/minimatch-npm-3.1.4-5c2bfccba3-10c0.zip/node_modules/minimatch/",\
         "packageDependencies": [\
           ["brace-expansion", "npm:1.1.11"],\
-          ["minimatch", "npm:3.1.2"]\
+          ["minimatch", "npm:3.1.4"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -16266,7 +16266,7 @@ const RAW_RUNTIME_STATE =
       ["npm:2.2.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frecursive-readdir%2F-%2Frecursive-readdir-2.2.3.tgz", {\
         "packageLocation": "../../.yarn/berry/cache/recursive-readdir-npm-2.2.3-894573f84f-10c0.zip/node_modules/recursive-readdir/",\
         "packageDependencies": [\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:3.1.4"],\
           ["recursive-readdir", "npm:2.2.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frecursive-readdir%2F-%2Frecursive-readdir-2.2.3.tgz"]\
         ],\
         "linkType": "HARD"\
