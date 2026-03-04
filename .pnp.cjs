@@ -4674,15 +4674,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@trysound/sax", [\
-      ["npm:0.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40trysound%2Fsax%2F-%2Fsax-0.2.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/@trysound-sax-npm-0.2.0-d521473c24-10c0.zip/node_modules/@trysound/sax/",\
-        "packageDependencies": [\
-          ["@trysound/sax", "npm:0.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40trysound%2Fsax%2F-%2Fsax-0.2.0.tgz"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@types/cacheable-request", [\
       ["npm:6.0.3", {\
         "packageLocation": "../../.yarn/berry/cache/@types-cacheable-request-npm-6.0.3-770619032a-10c0.zip/node_modules/@types/cacheable-request/",\
@@ -15634,7 +15625,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.49::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss%2F-%2Fpostcss-8.4.49.tgz"],\
           ["postcss-svgo", "virtual:5d9da1db78415c0f2aed3093fdce86d27c9346ffeb64d3986cfba326dc901ba617c5b7513b4e751daafc901bce71edad9a0a12cacb01d93044e2403c30e60254#npm:5.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-svgo%2F-%2Fpostcss-svgo-5.1.0.tgz"],\
           ["postcss-value-parser", "npm:4.2.0"],\
-          ["svgo", "npm:2.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsvgo%2F-%2Fsvgo-2.8.0.tgz"]\
+          ["svgo", "npm:2.8.2"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -16851,6 +16842,13 @@ const RAW_RUNTIME_STATE =
           ["sax", "npm:1.4.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.5.0", {\
+        "packageLocation": "../../.yarn/berry/cache/sax-npm-1.5.0-d40bca2226-10c0.zip/node_modules/sax/",\
+        "packageDependencies": [\
+          ["sax", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["scheduler", [\
@@ -17933,17 +17931,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["svgo", [\
-      ["npm:2.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsvgo%2F-%2Fsvgo-2.8.0.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/svgo-npm-2.8.0-400ca89f4c-10c0.zip/node_modules/svgo/",\
+      ["npm:2.8.2", {\
+        "packageLocation": "../../.yarn/berry/cache/svgo-npm-2.8.2-ae6ef227db-10c0.zip/node_modules/svgo/",\
         "packageDependencies": [\
-          ["@trysound/sax", "npm:0.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40trysound%2Fsax%2F-%2Fsax-0.2.0.tgz"],\
           ["commander", "npm:7.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcommander%2F-%2Fcommander-7.2.0.tgz"],\
           ["css-select", "npm:4.3.0"],\
           ["css-tree", "npm:1.1.3"],\
           ["csso", "npm:4.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcsso%2F-%2Fcsso-4.2.0.tgz"],\
           ["picocolors", "npm:1.1.1"],\
+          ["sax", "npm:1.5.0"],\
           ["stable", "npm:0.1.8"],\
-          ["svgo", "npm:2.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsvgo%2F-%2Fsvgo-2.8.0.tgz"]\
+          ["svgo", "npm:2.8.2"]\
         ],\
         "linkType": "HARD"\
       }]\
