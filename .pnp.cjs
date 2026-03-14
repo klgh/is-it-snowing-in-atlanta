@@ -9803,7 +9803,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/flat-cache-npm-3.2.0-17d5cc3bf4-10c0.zip/node_modules/flat-cache/",\
         "packageDependencies": [\
           ["flat-cache", "npm:3.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fflat-cache%2F-%2Fflat-cache-3.2.0.tgz"],\
-          ["flatted", "npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fflatted%2F-%2Fflatted-3.3.2.tgz"],\
+          ["flatted", "npm:3.4.1"],\
           ["keyv", "npm:4.5.4"],\
           ["rimraf", "npm:3.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frimraf%2F-%2Frimraf-3.0.2.tgz"]\
         ],\
@@ -9811,10 +9811,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["flatted", [\
-      ["npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fflatted%2F-%2Fflatted-3.3.2.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/flatted-npm-3.3.2-b98145748d-10c0.zip/node_modules/flatted/",\
+      ["npm:3.4.1", {\
+        "packageLocation": "../../.yarn/berry/cache/flatted-npm-3.4.1-6e06be75a1-10c0.zip/node_modules/flatted/",\
         "packageDependencies": [\
-          ["flatted", "npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fflatted%2F-%2Fflatted-3.3.2.tgz"]\
+          ["flatted", "npm:3.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\
