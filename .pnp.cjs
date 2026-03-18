@@ -17311,7 +17311,7 @@ const RAW_RUNTIME_STATE =
           ["engine.io", "npm:6.6.4"],\
           ["socket.io", "npm:4.8.1"],\
           ["socket.io-adapter", "npm:2.5.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsocket.io-adapter%2F-%2Fsocket.io-adapter-2.5.5.tgz"],\
-          ["socket.io-parser", "npm:4.2.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsocket.io-parser%2F-%2Fsocket.io-parser-4.2.4.tgz"]\
+          ["socket.io-parser", "npm:4.2.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17335,18 +17335,18 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:1d61fc58e3bfe6abc91b3453689f077c31362697bd0dc94bc6dc09bf7c6a0b9c4d4d14474fc7aada28132044c44f3822836470d62594826815ec3c32a8ff4838#npm:4.3.7"],\
           ["engine.io-client", "npm:6.6.3"],\
           ["socket.io-client", "npm:4.8.1"],\
-          ["socket.io-parser", "npm:4.2.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsocket.io-parser%2F-%2Fsocket.io-parser-4.2.4.tgz"]\
+          ["socket.io-parser", "npm:4.2.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["socket.io-parser", [\
-      ["npm:4.2.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsocket.io-parser%2F-%2Fsocket.io-parser-4.2.4.tgz", {\
-        "packageLocation": "../../.yarn/berry/cache/socket.io-parser-npm-4.2.4-a9c2d65efa-10c0.zip/node_modules/socket.io-parser/",\
+      ["npm:4.2.6", {\
+        "packageLocation": "../../.yarn/berry/cache/socket.io-parser-npm-4.2.6-35d9c58722-10c0.zip/node_modules/socket.io-parser/",\
         "packageDependencies": [\
           ["@socket.io/component-emitter", "npm:3.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40socket.io%2Fcomponent-emitter%2F-%2Fcomponent-emitter-3.1.2.tgz"],\
-          ["debug", "virtual:1d61fc58e3bfe6abc91b3453689f077c31362697bd0dc94bc6dc09bf7c6a0b9c4d4d14474fc7aada28132044c44f3822836470d62594826815ec3c32a8ff4838#npm:4.3.7"],\
-          ["socket.io-parser", "npm:4.2.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsocket.io-parser%2F-%2Fsocket.io-parser-4.2.4.tgz"]\
+          ["debug", "virtual:c74918c25392371aa6e7850361a0971111083ef2fd4e60448fc17775bca77eabfc9a929819588611b7ac2a4e3dde0c86ab3edf1a3f63ad2f865256f8d5222ebc#npm:4.4.3"],\
+          ["socket.io-parser", "npm:4.2.6"]\
         ],\
         "linkType": "HARD"\
       }]\
