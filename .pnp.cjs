@@ -13097,11 +13097,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lodash.template", [\
-      ["npm:4.5.0", {\
-        "packageLocation": "../../.yarn/berry/cache/lodash.template-npm-4.5.0-5272df3039-10c0.zip/node_modules/lodash.template/",\
+      ["npm:4.18.1", {\
+        "packageLocation": "../../.yarn/berry/cache/lodash.template-npm-4.18.1-b933a13b68-10c0.zip/node_modules/lodash.template/",\
         "packageDependencies": [\
           ["lodash._reinterpolate", "npm:3.0.0"],\
-          ["lodash.template", "npm:4.5.0"],\
+          ["lodash.template", "npm:4.18.1"],\
           ["lodash.templatesettings", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -19129,7 +19129,7 @@ const RAW_RUNTIME_STATE =
           ["common-tags", "npm:1.8.2"],\
           ["fs-extra", "npm:4.0.3"],\
           ["glob", "npm:7.2.3"],\
-          ["lodash.template", "npm:4.5.0"],\
+          ["lodash.template", "npm:4.18.1"],\
           ["pretty-bytes", "npm:5.6.0"],\
           ["stringify-object", "npm:3.3.0"],\
           ["strip-comments", "npm:1.0.2"],\
