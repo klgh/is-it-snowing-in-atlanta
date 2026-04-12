@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["axios", "npm:1.13.4"],\
+          ["axios", "npm:1.15.0"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.16.0"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.4.0"],\
           ["gatsby-cli", "npm:5.16.0"],\
@@ -5929,6 +5929,16 @@ const RAW_RUNTIME_STATE =
           ["proxy-from-env", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.15.0", {\
+        "packageLocation": "../../.yarn/berry/cache/axios-npm-1.15.0-9132fa0a61-10c0.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:1.15.0"],\
+          ["follow-redirects", "virtual:9132fa0a61efc86c3366c1f4c98c4eaafaefa0c123aca659f85cbce3e47a61c0090e4615b3b10a9c9285534e80db49e04a98baf895cccb5d9c934849464afff0#npm:1.15.11"],\
+          ["form-data", "npm:4.0.5"],\
+          ["proxy-from-env", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["axobject-query", [\
@@ -9820,6 +9830,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["follow-redirects", [\
+      ["npm:1.15.11", {\
+        "packageLocation": "../../.yarn/berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "npm:1.15.11"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["npm:1.15.9", {\
         "packageLocation": "../../.yarn/berry/cache/follow-redirects-npm-1.15.9-539785d34c-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
@@ -9833,6 +9850,19 @@ const RAW_RUNTIME_STATE =
           ["@types/debug", null],\
           ["debug", null],\
           ["follow-redirects", "virtual:7c78039beb55b34dec6c4b8bde84cdf70316d264d3e514884cde502e208b9a452689b4cc9b6873aa4975d7479ba0bbd7492bda652ef862b26265d0b40b92c9f7#npm:1.15.9"]\
+        ],\
+        "packagePeers": [\
+          "@types/debug",\
+          "debug"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:9132fa0a61efc86c3366c1f4c98c4eaafaefa0c123aca659f85cbce3e47a61c0090e4615b3b10a9c9285534e80db49e04a98baf895cccb5d9c934849464afff0#npm:1.15.11", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-fdd81fa3e5/3/.yarn/berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["@types/debug", null],\
+          ["debug", null],\
+          ["follow-redirects", "virtual:9132fa0a61efc86c3366c1f4c98c4eaafaefa0c123aca659f85cbce3e47a61c0090e4615b3b10a9c9285534e80db49e04a98baf895cccb5d9c934849464afff0#npm:1.15.11"]\
         ],\
         "packagePeers": [\
           "@types/debug",\
@@ -9917,6 +9947,18 @@ const RAW_RUNTIME_STATE =
           ["combined-stream", "npm:1.0.8"],\
           ["es-set-tostringtag", "npm:2.1.0"],\
           ["form-data", "npm:4.0.4"],\
+          ["hasown", "npm:2.0.2"],\
+          ["mime-types", "npm:2.1.35"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.5", {\
+        "packageLocation": "../../.yarn/berry/cache/form-data-npm-4.0.5-c35fce815a-10c0.zip/node_modules/form-data/",\
+        "packageDependencies": [\
+          ["asynckit", "npm:0.4.0"],\
+          ["combined-stream", "npm:1.0.8"],\
+          ["es-set-tostringtag", "npm:2.1.0"],\
+          ["form-data", "npm:4.0.5"],\
           ["hasown", "npm:2.0.2"],\
           ["mime-types", "npm:2.1.35"]\
         ],\
@@ -12137,7 +12179,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["axios", "npm:1.13.4"],\
+          ["axios", "npm:1.15.0"],\
           ["gatsby", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:5.16.0"],\
           ["gatsby-adapter-netlify", "virtual:831c611937eb507499e745acdacbe7cdea38b75d328e36c33b607795bcbf03a61dec0c10f71617800456d858bb12b2c599149677b735b717c06d6b16be464140#npm:1.4.0"],\
           ["gatsby-cli", "npm:5.16.0"],\
@@ -15845,6 +15887,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/proxy-from-env-npm-1.1.0-6f9bedc77d-10c0.zip/node_modules/proxy-from-env/",\
         "packageDependencies": [\
           ["proxy-from-env", "npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fproxy-from-env%2F-%2Fproxy-from-env-1.1.0.tgz"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/proxy-from-env-npm-2.1.0-ce678f045b-10c0.zip/node_modules/proxy-from-env/",\
+        "packageDependencies": [\
+          ["proxy-from-env", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\

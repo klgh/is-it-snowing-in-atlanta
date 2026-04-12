@@ -24,7 +24,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "axios": "^1.13.4",
+    "axios": "^1.15.0",
     "gatsby": "^5.16.0",
     "gatsby-adapter-netlify": "^1.4.0",
     "gatsby-cli": "^5.16.0",
